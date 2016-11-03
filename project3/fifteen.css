@@ -1,0 +1,218 @@
+body{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 12pt;
+	line-height: 1.25em;
+	height: 100%;
+}
+
+.empty {
+	background:#FFFFFF;
+}
+
+table #puzzleTable {
+	border-color:#fff;
+	border-collapse:collapse;
+	float:none;
+}
+
+#puzzleTable td {
+	width:100px;
+	height:100px;
+	padding:0px;
+	margin:0px;
+	background:#FFFFFF;
+	font-size:32px;
+	font-weight:bold;
+	text-align:center;
+	font-family: sans-sarif;
+	border: 2px solid #000000;
+}
+
+.content {
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 400px;
+}
+
+#puzzleTable  .img01 {
+	background:url("pic.jpg") 0 0 no-repeat;
+}
+#puzzleTable .img02 {
+	background:url("pic.jpg") -100px 0  no-repeat;
+}
+#puzzleTable .img03 {
+	background:url("pic.jpg") -200px 0  no-repeat;
+}
+#puzzleTable .img04 {
+	background:url("pic.jpg") -300px 0  no-repeat;
+}
+#puzzleTable .img05 {
+	background:url("pic.jpg") 0 -100px  no-repeat;
+}
+#puzzleTable .img06 {
+	background:url("pic.jpg") -100px -100px  no-repeat;
+}
+#puzzleTable .img07 {
+	background:url("pic.jpg") -200px -100px  no-repeat;
+}
+#puzzleTable .img08 {
+	background:url("pic.jpg") -300px -100px  no-repeat;
+}
+#puzzleTable .img09 {
+	background:url("pic.jpg") 0 -200px  no-repeat;
+}
+#puzzleTable .img10 {
+	background:url("pic.jpg") -100px -200px  no-repeat;
+}
+#puzzleTable .img11 {
+	background:url("pic.jpg") -200px -200px  no-repeat;
+}
+#puzzleTable .img13 {
+	background:url("pic.jpg") -300px -200px  no-repeat;
+}
+#puzzleTable .img13 {
+	background:url("pic.jpg") 0 -300px  no-repeat;
+}
+#puzzleTable .img14 {
+	background:url("pic.jpg") -100px -300px  no-repeat;
+}
+#puzzleTable .img15 {
+	background:url("pic.jpg") -200px -300px  no-repeat;
+}
+
+#puzzleTable .img012{
+	background:url("pic.jpg") 0 0 no-repeat;
+}
+#puzzleTable .img022{
+	background:url("pic.jpg") -100px 0  no-repeat;
+}
+#puzzleTable .img032{
+	background:url("pic.jpg") -200px 0  no-repeat;
+}
+#puzzleTable .img042 {
+	background:url("pic.jpg") -300px 0  no-repeat;
+}
+#puzzleTable .img052 {
+	background:url("pic.jpg") 0 -100px  no-repeat;
+}
+#puzzleTable .img062 {
+	background:url("pic.jpg") -100px -100px  no-repeat;
+}
+#puzzleTable .img072 {
+	background:url("pic.jpg") -200px -100px  no-repeat;
+}
+#puzzleTable .img082 {
+	background:url("pic.jpg") -300px -100px  no-repeat;
+}
+#puzzleTable .img092 {
+	background:url("pic.jpg") 0 -200px  no-repeat;
+}
+#puzzleTable .img102 {
+	background:url("pic.jpg") -100px -200px  no-repeat;
+}
+#puzzleTable .img112 {
+	background:url("pic.jpg") -200px -200px  no-repeat;
+}
+#puzzleTable .img122 {
+	background:url("pic.jpg") -300px -200px  no-repeat;
+}
+#puzzleTable .img132 {
+	background:url("pic.jpg") 0 -300px  no-repeat;
+}
+#puzzleTable .img142 {
+	background:url("pic.jpg") -100px -300px  no-repeat;
+}
+#puzzleTable .img152 {
+	background:url("pic.jpg") -200px -300px  no-repeat;
+}
+
+#puzzleTable  .img013 {
+	background:url("pic.jpg") 0 0 no-repeat;
+}
+#puzzleTable .img023 {
+	background:url("pic.jpg") -100px 0  no-repeat;
+}
+#puzzleTable .img033 {
+	background:url("pic.jpg") -200px 0  no-repeat;
+}
+#puzzleTable .img043 {
+	background:url("pic.jpg") -300px 0  no-repeat;
+}
+#puzzleTable .img053 {
+	background:url("pic.jpg") 0 -100px  no-repeat;
+}
+#puzzleTable .img063 {
+	background:url("pic.jpg") -100px -100px  no-repeat;
+}
+#puzzleTable .img073 {
+	background:url("pic.jpg") -200px -100px  no-repeat;
+}
+#puzzleTable .img083 {
+	background:url("pic.jpg") -300px -100px  no-repeat;
+}
+#puzzleTable .img093 {
+	background:url("pic.jpg") 0 -200px  no-repeat;
+}
+#puzzleTable .img103 {
+	background:url("pic.jpg") -100px -200px  no-repeat;
+}
+#puzzleTable .img113 {
+	background:url("pic.jpg") -200px -200px  no-repeat;
+}
+#puzzleTable .img123 {
+	background:url("pic.jpg") -300px -200px  no-repeat;
+}
+#puzzleTable .img133 {
+	background:url("pic.jpg") 0 -300px  no-repeat;
+}
+#puzzleTable .img143 {
+	background:url("pic.jpg") -100px -300px  no-repeat;
+}
+#puzzleTable .img153 {
+	background:url("pic.jpg") -200px -300px  no-repeat;
+}
+#puzzleTable td{
+	border-radius: 30%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+#puzzleTable td:hover {
+   -webkit-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+}
+
+ul {
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 1.25em;
+	color: #000080;
+}
+
+button{
+	font-weight:bold;
+}
+
+h1{
+	color: Black;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+	text-shadow: 4px 4px 6px;
+	font-size:500%;
+	padding-top:30px;
+	text-align:center;
+	color: #000000;
+}
+
+a:link {
+    color: #D3D3D3;
+}
+
+a:hover
+{
+	color: #000000;
+	font-size: 40px;
+}
+a:visited {
+    color: #D3D3D3;
+}

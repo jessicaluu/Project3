@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	 
+	<head>
+		<title>Pokemon Puzzle Game</title>
+		<link href="fifteen.css" type="text/css" rel="stylesheet"/>
+		<script src="fifteen.js" type="text/javascript"></script>
+	</head>
+	
+<body onload="shuffle_rare()">
+	<h1>Pokemon Puzzle Game</h1>
+	
+	<div class="content">
+	<ul>
+		<div> Moves: <label id="move"> </label></div>
+		<br />
+		<div id="time"></div>
+		<br />
+		<div >Pokemon Rarity:
+			<select id="bg" onchange="chgbg()">
+				<option value="-1">--Select--</option>
+				<option value="0" >Common</option>
+				<option value="1" >Rare</option>
+				<option value="2" >Legendary</option>
+			</select>
+		</div>
+	</ul>
+	
+	<table "border="1" id="puzzleTable" width="400px">
+		<tr>
+			<td class="img012" onclick="clickCell(this)">1</td>
+			<td class="img022" onclick="clickCell(this)">2</td>
+			<td class="img032" onclick="clickCell(this)">3</td>
+			<td class="img042" onclick="clickCell(this)">4</td>
+		</tr>
+		<tr>
+			<td class="img052" onclick="clickCell(this)">5</td>
+			<td class="img062" onclick="clickCell(this)">6</td>
+			<td class="img072" onclick="clickCell(this)">7</td>
+			<td class="img082" onclick="clickCell(this)">8</td>
+		</tr>
+		<tr>
+			<td class="img092" onclick="clickCell(this)">9</td>
+			<td class="img102" onclick="clickCell(this)">10</td>
+			<td class="img112" onclick="clickCell(this)">11</td>
+			<td class="img122" onclick="clickCell(this)">12</td>
+		</tr>
+		<tr>
+			<td class="img132" onclick="clickCell(this)">13</td>
+			<td class="img142" onclick="clickCell(this)">14</td>
+			<td class="img152" onclick="clickCell(this)">15</td>
+			<td class="empty" onclick="clickCell(this)"></td>
+		</tr>
+	</table>
+	<br/>
+	<div align="center">
+		<button type="button" onclick="shuffle_rare()">Shuffle</button>
+	</div>
+	</div>				
+</body>
+</html>
